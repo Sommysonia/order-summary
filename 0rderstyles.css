@@ -1,0 +1,134 @@
+* {
+    padding: 0.1px;
+    margin: 0px;
+  }
+  :root {
+    --cloudblue: rgb(226, 221, 221);
+    --skyblue: rgba(205, 205, 231, 0.966);
+    --blue: rgb(28, 62, 233);
+    --white: rgb(255, 255, 255);
+  }
+
+  .my-background {
+    background-color: var(--skyblue);
+    background-image: url("../images/pattern-background-desktop.svg");
+    background-size: cover;
+  
+    background-blend-mode: overlay;
+    width: 100vw;
+    height: 100vh;
+    
+  }
+  .box-1 {
+    width: 400px;
+    height: 530px;
+    margin: 50px auto;
+  
+    text-align: justify;
+    cursor: pointer;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+  }
+  img { border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 100%;
+    height: 170px;
+    margin-top: -0.1px;
+  
+    filter: brightness(1);
+    mix-blend-mode: multiply;
+  }
+  .summary-1 {
+    background-color: rgb(255, 255, 255);
+    width: 399px;
+    height: 345px;
+    text-align: center;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+  }
+  .summary-1 h1 {
+    font-family: Tahoma;
+    font: bold;
+    padding: 18px;
+    font-size: 21px;
+  }
+  
+  .summary-1 h2 {
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 100;
+    opacity: 0.6;
+  }
+  .box-2 {
+    width: 280px;
+    height: 70px;
+    margin: 8% auto;
+    border: none;
+    background-color: rgb(245, 245, 247);
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+  }
+  .box-2 img{
+    width: 20;
+    height: 20;
+    gap: 50px;
+  }
+  h3 {
+    font-size: medium;
+  }
+  .ri-music-2-line{
+    border-radius: 100%;
+    background-color: var(--skyblue);
+    margin-left: 10px;
+    margin-right: 20px;
+    font-size: 20px;
+  }
+  .pay-plan {
+    display: block;
+  }
+  .btn-1 {
+    border: none;
+    text-decoration: underline;
+    margin-left: 75px;
+    color: rgb(29, 54, 197);
+  }
+  .btn-1:hover {
+    opacity: 0.4;
+    transition: opacity 0.3s ease-in-out;
+    border-radius: 20px;
+  }
+  .my-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .btn-2 {
+    background-color: var(--blue);
+    border: none;
+    width: 250px;
+    height: 30px;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    border-radius: 10px;
+    
+  }
+  
+  .btn-2:hover {
+    background-color: var(--skyblue);
+  }
+  .btn-3 {
+  
+    border: none;
+    width: 250px;
+    height: 30px;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 5% auto;
+    border-radius: 10px;
+  }
+  
+  .btn-3:hover:hover {
+    background-color: var(--cloudblue);
+  }        
